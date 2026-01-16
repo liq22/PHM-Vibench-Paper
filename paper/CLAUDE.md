@@ -1,10 +1,9 @@
 # paper/: Local Memory (Research / Writing)
 
 ## vibe research guide and rule
-- Paper docs SSOT (ground truth): `paper/state_flow/core/`
-- Always read first: `paper/state_flow/core/STATUS.md`
-- On completion: update `paper/state_flow/core/STATUS.md` and append to
-  `paper/state_flow/core/ITERATION_LOG.md`
+- Paper work lives under `paper/**`. Each paper project declares its own SSOT locally (e.g., `paper/**/CLAUDE.md`).
+- For `paper/state_flow/`, treat `paper/state_flow/` as the replication package boundary (configs/scripts/results live
+  under that folder).
 
 ## Scope guard (paper-only by default)
 - For paper-writing / research-doc tasks: only change files under `paper/**` unless explicitly requested otherwise.
@@ -17,4 +16,3 @@
 
 ## Optional validation
 - Docs links: `python -m scripts.validate_docs` (run from repo root)
-

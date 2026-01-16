@@ -3,6 +3,8 @@
 ## Scope
 - Default to paper-only changes: `paper/**`.
 - Always treat `paper/state_flow/core/` as the paper docs SSOT.
+- For the state-flow paper replication package, keep experiment assets under `paper/state_flow/` (do not touch repo-root
+  `configs/` or `scripts/`).
 
 ## Start / Finish checklist
 - Start: read `paper/state_flow/core/STATUS.md` and state the current phase + next TODOs.
@@ -17,4 +19,3 @@
 ## If code changes are needed
 - Write a handoff request in `paper/state_flow/core/STATUS.md` (exact files, expected behavior, and validation
   commands), and stop. Do not modify `src/**` unless the task explicitly asks you to.
-
