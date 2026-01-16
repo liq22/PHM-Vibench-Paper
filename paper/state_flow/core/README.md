@@ -13,9 +13,10 @@
 
 ## 1 分钟开始
 
-1. 先读：[[00_Overview]]  
-2. 然后读：[[10_Agent_Onboarding]]（两周任务拆解 + 验收标准）  
-3. 开发时只要记住一句话：  
+1. 先读：[[STATUS]]（当前阶段 / 下一步 / 约束）  
+2. 然后读：[[00_Overview]]  
+3. 再读：[[10_Agent_Onboarding]]（两周任务拆解 + 验收标准）  
+4. 开发时只要记住一句话：  
    - Skeleton 负责“因果骨架”，Flow 负责“统计纹理”，Sensor 负责“域随机化”。
 
 ---
@@ -36,6 +37,8 @@
 - [[13_Risk_Register]]：风险登记表（失败模式与应对）
 - [[14_Minimal_Config_Examples]]：最小可运行 YAML 示例
 - [[15_Coding_Standards]]：代码规范（让 Agent 不踩坑）
+- [[STATUS]]：当前状态（每次任务结束必须更新）
+- [[ITERATION_LOG]]：迭代日志（追加式）
 - [[ITERATION_TEMPLATE]]：每次迭代如何“批判→改进→再批判”
 
 更新时间：2026-01-14
