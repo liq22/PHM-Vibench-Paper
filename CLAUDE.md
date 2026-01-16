@@ -6,14 +6,11 @@ This file documents PHM-Vibench’s intent, architecture, and change strategy.
 - Copy-paste run/validate commands: `AGENTS.md`
 
 ## vibe research guide and rule
-- Paper docs SSOT (read first): `paper/state_flow/core/`
-  - Mandatory checkpoint: `paper/state_flow/core/STATUS.md`
+- Paper work lives under `paper/**`. The active paper project must explicitly declare its docs SSOT in its own local
+  memory file (e.g., `paper/**/CLAUDE.md`), including the mandatory checkpoint `STATUS.md`.
 - Paper-writing / research-doc tasks: only change `paper/**` unless explicitly requested otherwise.
-- If implementing paper specs in code, align with:
-  - `paper/state_flow/core/05_Repo_Integration_Plan.md`
-  - `paper/state_flow/core/06_Evaluation_Metrics_Spec.md`
-- On finishing a paper/doc task: update `paper/state_flow/core/STATUS.md` and append to
-  `paper/state_flow/core/ITERATION_LOG.md`.
+- If implementing paper specs in code, follow the active paper project's docs SSOT (as declared locally under `paper/**`).
+- On finishing a paper/doc task: update that project's `STATUS.md` and append to its `ITERATION_LOG.md`.
 - Modular Claude rules live in `.claude/rules/` (global/code/paper).
 
 ## Repository Overview
@@ -77,8 +74,7 @@ Start here for user-facing config docs: `configs/README.md`.
 
 ## Paper / Research Workflows (kept separate)
 
-In-repo research/design docs (DSSF state-flow) live here:
-- `paper/state_flow/core/` (SSOT for paper-writing and design discussions)
+In-repo research/design docs live under `paper/` (each paper project declares its own SSOT locally).
 
 Paper-grade experiments live in a git submodule to avoid confusing the main onboarding path:
 - `paper/2025-10_foundation_model_0_metric/` (init requires network):
