@@ -252,3 +252,7 @@ metrics_reports/*
 !results/
 results/*
 !results/README.md
+
+# Specify / Spec Kit generated files
+.agents/
+.claude/skills/speckit-*/
